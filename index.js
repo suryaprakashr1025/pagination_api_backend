@@ -8,7 +8,7 @@ const URL = process.env.DB
 
 app.use(cors({
     // origin:"http://localhost:3000",
-    origin:"*",
+    // origin:"*",
     origin:"https://master--mellow-liger-9f5ad8.netlify.app/",
 }))
 
